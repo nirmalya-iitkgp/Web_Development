@@ -1,0 +1,90 @@
+header,nav,section,aside
+{
+	display:block;
+	text-align: center;
+}
+body
+{
+	 width: 100%;
+	font-size: 15px;
+    font-family: sans-serif;
+	position: absolute;
+	padding: 50px 10px 50px 10px;
+	border:10px solid black;
+	border-radius:20px;
+	background:gradient;
+	margin: 30px auto;
+	
+}
+h1
+{
+	font:bold 30px Castellar;
+	text-shadow:rgb(13,14,13) 2px 2px;
+}
+
+#menu
+{
+	background:gray;
+	color:white;
+	border: 1px solid black;
+}
+#menu li
+{
+	display:inline-block;
+	padding: 5px;
+	font: bold 20px Tohoma;
+	width:20%;
+}
+#menu li:hover
+{
+	background:#999;
+	opacity:1;
+}
+#main
+{
+	float:left;
+	width:35%;
+	margin: 10px solid blue;
+	list-style:none;
+}
+#photo
+{
+	padding:20px 30px;
+	width:25%;
+	float:left;
+}
+	
+#dept
+{
+	padding:10px;
+	width:25%;
+	float:right;
+	
+}
+#dept:hover
+{
+	font-size-adjust:1;
+	font-family:times new roman;
+}
+#one, #two, #three 
+{
+	padding:20px 30px;
+	width:25%;
+	float:left;
+}
+#three:hover{
+	
+	font-size-adjust:1;
+	font-size:20px;
+	text-align:right;
+}
+	
+	
+footer
+{
+	clear: both;
+	text-align: center;
+	font-family: arial;
+	font-size: 10px;
+	color:red;
+}
